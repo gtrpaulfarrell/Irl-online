@@ -1,0 +1,203 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+}
+
+
+
+h1 {
+  font-family: "Helvetica", "Arial", sans-serif;
+
+
+}
+
+h2. h3, h4, h5, h6 {
+  font-family: "Helvetica", "Arial", sans-serif;
+  color: #34480D;
+
+
+}
+
+
+a {
+  text-decoration: none;
+}
+
+
+div {
+  color: #B6C653;
+  background-color: #EEF1DA;
+  font-weight: bold;
+  padding: 0;
+  text-align: center;
+  margin: 0 auto;
+
+}
+
+p {
+  margin-bottom: 0;
+}
+
+body {
+  color: #EEF3DC;
+  padding: 0;
+  margin:  0;
+  text-align: center;
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 600px) {
+  .header-image {
+
+
+  }
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 601px) and (max-width: 960px) {
+  body {
+
+  }
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+  body {
+
+  }
+
+.header-image {
+  
+   width:100%;
+}
+
+.page {
+  color: #EEF3DC;
+  width: 100%;
+
+}
+
+
+
+.body-container {
+
+  padding: 10px 0;
+  width:100%;
+  border: none;
+  display: flex;
+
+
+
+}
+
+.body {
+
+
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #EEF3DC;
+  flex-direction:column;
+}
+
+.category-list {
+
+  display: flex;
+  Flex-wrap: wrap;
+  flex-direction: row;
+  max-width:1500px;
+}
+
+.menu-container {
+
+  padding: 0;
+  border: 0;
+  display: flex;
+  justify-content: center;
+
+
+}
+
+.menu {
+  color: #A7C04C;
+  padding: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  background-color: #10262E;
+
+}
+
+.menu-button {
+  Background-color:#10262E;
+}
+
+
+
+.subpage-container{
+
+  margin: 0;
+  padding: 0;
+  border: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+
+}
+
+.subpage{
+
+  padding:20px;
+
+}
+
+
+.card-item {
+
+padding:20px 800px 20px 20px;
+Background-color:#EEF3DC;
+display:flex;
+flex-direction:row;
+align-items:center;
+
+}
+
+
+.shop-photo {
+
+padding: 5px;
+display:flex;
+
+
+}
+
+
+.shop-description {
+
+  color:#10262E;
+  font-size:30px;
+  padding:30px;
+  width:400px;
+  display:flex;
+
+}
+
+
+a:link {
+  Color:#A7C04C;
+}
+
+a:visited{
+  color:#6A9E44;
+}
+
+a:hover{
+  color:#EEF3DC;
+}
+
+a:visited{
+  color:#43778B;
+}
