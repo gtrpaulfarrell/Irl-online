@@ -49,7 +49,17 @@ body {
 
 /* Mobile Styles */
 @media only screen and (max-width: 600px) {
+  
   .header-image {
+    max-width:600px
+  }
+
+  .category-list {
+
+    flex-direction: column
+  }
+}
+
 
 
   }
