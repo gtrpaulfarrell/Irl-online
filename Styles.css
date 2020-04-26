@@ -56,7 +56,9 @@ body {
 
   .category-list {
 
-    flex-direction: column
+    flex-direction: column;
+    justify-content:center;
+    max-width: 600px;
   }
 }
 
